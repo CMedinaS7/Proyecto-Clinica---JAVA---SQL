@@ -1,0 +1,69 @@
+
+<%
+            HttpSession sesion = request.getSession(true);
+            String Usuario = (String) sesion.getAttribute("nombre") + " " + (String) sesion.getAttribute("apellido");
+            String Cargo = (String) sesion.getAttribute("cargo");
+	    	String resp = request.getParameter("resp");
+	    	String codigo = request.getParameter("codigo");
+			String Foto = (String) sesion.getAttribute("foto");
+            if ((String) sesion.getAttribute("nombre") == null) {
+                response.sendRedirect("Intranet.jsp?error=!!!!Necesita Loguearse!!!!!!!!!!!");
+            }
+%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin t&iacute;tulo</title>
+
+<link rel="stylesheet" type="text/css" 
+href="estilos/estilos.css" />
+</head>
+
+<body>
+<div>
+  <table width="505" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td colspan="2"><table width="65%" border="0" align="center" cellpadding="0" cellspacing="0" class="TituloNC">
+            <tbody>
+              <tr>
+                <td class="TituloPS"><div align="center">Realizar Consulta</div></td>
+              </tr>
+            </tbody>
+        </table></td>
+      </tr>
+      <tr>
+        <td colspan="2"><img src="./Clínica Santa María_files/1x1.gif" width="1" height="1" /></td>
+      </tr>
+      <tr>
+        <td><img src="imagenes/1x1(1).gif" width="10" height="1" /></td>
+        <td bordercolor="0"><img src="imagenes/barratitulos.jpg" width="496" height="1" /></td>
+      </tr>
+      <tr>
+        <td height="20" colspan="2" class="convescolar"><div align="center">Esta seccion es solo para el administrador. El administrador se compromete a no modificar, borrary/o alterar datos de la BD en beneficio propio.</div></td>
+      </tr>
+      <tr>
+        <td height="20" colspan="2" class="convescolar"><form action="Resultado.jsp" method="post" name="form1" target="mainFrame" id="form1">
+            <label>
+            <div align="center">
+              <textarea name="consulta" id="consulta" cols="45" rows="5"></textarea>
+              <br />
+              <br />
+              <input type="submit" name="button" id="button" value="CONSULTAR" />
+            </div>
+          </label>
+            <div align="center"></div>
+        </form></td>
+      </tr>
+      <tr>
+        <td height="20" colspan="2" class="convescolar">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+  <div align="center"></div>
+</div>
+<div align="center"></div>
+</body>
+</html>

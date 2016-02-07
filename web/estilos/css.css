@@ -1,0 +1,92 @@
+@import url(default.css);
+
+/*****************************
+Cambios Jorge 28/03/2007
+Secciones para modificar KIT
+Modificar desde aqui
+******************************/
+body {
+	background:#fff;
+
+}
+/*Cajita login en portada*/
+.login{
+	background:#2E75B3 /*url("bg-login.jpg") repeat-x 0 0*/;
+	color: #fff;
+	/*border:1px solid #00274F;*/
+	} .login a {color: #fff;}
+/* barra superior despues de bannerpersona, donde está el menu */
+#menu {
+	background:#034387 url("bg-menu.jpg") repeat-x 0 0;
+	padding: 5px;
+	/*border-bottom: 1px solid #FFF;*/
+	color:#666;
+	} #menu a {color:#666;}
+/* barra superior e inferior caja busqueda */
+.busqTitulo {
+	color:#fff;
+	background:#2E75B3/*url("bg-titulos.jpg") repeat-x 0 0*/; 
+	padding: 3px;
+	font-weight:bold;
+	/*border-top:1px solid #FFF; 
+	border-bottom:1px solid #FFF;*/
+	}
+/* contenido caja busqueda */
+.busqContenido {
+	background:#FAF7F2/*url("bg-busc") repear-x 0 0*/; color:#333;
+	}
+/* barra titulos columna derecha: donde dice RRHH*/
+.tablaTitulo {
+	color:#fff;
+	background:#2E75B3/*url("bg-titulos.jpg") repeat-x 0 0*/; 
+	padding: 3px;
+	}
+/*pie de pagina */
+.footer {
+	/*border-top: 1px solid #00274F;*/
+	background:#CECECE url("bg-titulos.jpg") repeat-x 0 0;
+	padding: 4px;
+	color: #333;
+	}
+.footer a {
+
+	color: #333;
+	}	
+/*barra sobre los resultados del home */
+.tablaAmarilla {
+	background:#E6E6E6/*url("bg-menu.jpg") repeat-x 0 0*/ ;
+	/*border-top: 1px solid #fff;*/
+	/*border-bottom: 3px solid #FFF;*/
+	color: #666666;
+	}
+/*boton caja de busqueda */
+.boton {
+	border:1px solid #fff;
+	background:#E7E7E7;
+	color:#2E75B3;
+	}
+/* divide con 1px la col derecha de la principal*/
+.columnaDerecha{
+	background:#fff;
+	border-left: 1px solid #999999;
+}
+.alinea {
+	margin: 0 auto;
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+	background:#fff;
+}
+/*Tabla default rosada. Cambiar */
+.tablaCeleste {
+background-color: #CCC;
+}
+#menu, .tablaCentroContenido table, .tablaCentroContenido td, .login, .busqTitulo, .footer, .tablaTitulo, .tablaContenido {text-align: left; padding: 5px;}
+
+.accesoEmpresas {
+    float: right;
+    margin-top: -15px;
+    }
+.letraClara {
+background:#FFFFFF;
+}

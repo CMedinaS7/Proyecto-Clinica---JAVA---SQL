@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sexy Forms - www.coders.me</title>
+<link rel="stylesheet" href="global.css" type="text/css" media="all" />
+
+
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.2/mootools-yui-compressed.js"></script>
+<script type="text/javascript" src="sexyforms.v1.3.mootools.min.js"></script>
+<link   type="text/css"        rel="stylesheet" href="sexyforms/blue/sexyforms-blue.css"  media="all" id="theme" />
+<script type="text/javascript">
+window.addEvent('domready', function() {
+  $$(".sexyform input", ".sexyform select", ".sexyform textarea").each(function(el) {
+    el.DoSexy();
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+  .tablita {
+    margin:0 auto;
+  }
+  .tablita td{
+    padding:0 13px;
+  }
+  tr.odd td {
+    background:#f1f7ff;
+  }
+  .tablita td.resaltar {
+    background:#F5F5E8;
+  }
+  .tablita a {
+    font-weight:bold;
+  }
+  .cuadrado {
+    float:left;
+    width:170px;
+    height:170px;
+    margin:10px;
+    border:1px solid #574331;
+    padding:5px;
+    background:#eee;
+  }
+  
+  select { width:100px; }
+</style>
+</head>
+
+<body>
+    <div id="top">
+      <div>
+        <form action="" method="get" class="sexyform">
+          <table>
+            <tr>
+              <td><label for="nombre">Nombres:</label>
+              </td>
+              <td><input id="nombre" type="text" size="35" icon="icons/user.png"/>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="telefono">E-mail:</label>
+              </td>
+              <td><input id="nombre3" type="text" size="35" icon="icons/email_go.png"/></td>
+            </tr>
+            <tr>
+              <td colspan="2"><p>Commentario:</p>
+                  <textarea name="textarea" rows="10"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2"><div align="left">
+                  <input type="submit" value="Send" icon="icons/email_go.png"/>
+              </div></td>
+            </tr>
+          </table>
+        </form>
+        <br clear="all" />
+      </div>
+    </div>
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  var pageTracker = _gat._getTracker("UA-2851998-1");
+  pageTracker._trackPageview();
+  </script>
+
+</body>
+</html>

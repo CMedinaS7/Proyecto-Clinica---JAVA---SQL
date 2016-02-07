@@ -1,0 +1,1201 @@
+.bajada_textos {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bajada_textos A:link {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bajada_textos A:visited {
+	FONT-FAMILY: "Tahoma"; COLOR: #f26522; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bajada_textos A:hover {
+	FONT-FAMILY: "Tahoma"; COLOR: #f26522; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bajada_textos A:active {
+	FONT-FAMILY: "Tahoma"; COLOR: #f26522; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bajada_prevencion {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bajada_prevencion A:link {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bajada_prevencion A:visited {
+	FONT-FAMILY: "Tahoma"; COLOR: #548fd5; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bajada_prevencion A:hover {
+	FONT-FAMILY: "Tahoma"; COLOR: #548fd5; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bajada_prevencion A:active {
+	FONT-FAMILY: "Tahoma"; COLOR: #548fd5; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.titulo_prevencion {
+	FONT-FAMILY: "Tahoma"; COLOR: #2c76b3; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.ps {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.barrafondo {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 10px
+}
+.vermas {
+	FONT-FAMILY: "Tahoma"; COLOR: #ff0000; FONT-SIZE: 10px
+}
+.vermasNC {
+	FONT-FAMILY: Tahoma; COLOR: #2754d3; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.vermasAM {
+	FONT-FAMILY: Tahoma; COLOR: #89bd4b; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.vermasPS {
+	FONT-FAMILY: Tahoma; COLOR: #f26522; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.numeroresultados {
+	FONT-FAMILY: "Tahoma"; COLOR: #006699; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.ps A:link {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.ps A:visited {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.ps A:hover {
+	FONT-FAMILY: "Tahoma"; COLOR: #000099; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.ps A:active {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.titulosBusqueda {
+	FONT: 18px "Tahoma"; COLOR: #ff9900; TEXT-DECORATION: none
+}
+.am {
+	FONT-FAMILY: "Tahoma"; COLOR: #4b93cf; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.am A:link {
+	FONT-VARIANT: normal; FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.am A:visited {
+	FONT-VARIANT: normal; FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.am A:hover {
+	FONT-VARIANT: normal; FONT-FAMILY: Tahoma; COLOR: #8cab23; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.am A:active {
+	FONT-VARIANT: normal; FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.bordesContenidosNC {
+	BORDER-BOTTOM: #d4ddf6 1px solid; BORDER-LEFT: #d4ddf6 1px solid; BORDER-TOP: #d4ddf6 1px solid; BORDER-RIGHT: #d4ddf6 1px solid
+}
+.bordesMaternidad {
+	BACKGROUND-IMAGE: url(../imagenes/maternidad/marco_yo_naci.jpg); BORDER-BOTTOM: #ffffff 0px; BORDER-LEFT: #ffffff 0px; BORDER-TOP: #ffffff 0px; BORDER-RIGHT: #ffffff 0px
+}
+.bordesContenidosPS {
+	BORDER-BOTTOM: #fff5ce 1px solid; BORDER-LEFT: #fff5ce 1px solid; BORDER-TOP: #fff5ce 1px solid; BORDER-RIGHT: #fff5ce 1px solid
+}
+.bordesContenidosAM {
+	BORDER-BOTTOM: #86c143 1px solid; BORDER-LEFT: #86c143 1px solid; BORDER-TOP: #86c143 1px solid; BORDER-RIGHT: #86c143 1px solid
+}
+.TituloNC {
+	FONT-FAMILY: Tahoma; COLOR: #2754d3; FONT-SIZE: 18px; FONT-WEIGHT: normal; TEXT-DECORATION: none; PADDING-TOP: 10px
+}
+.TituloNoticias {
+	FONT-FAMILY: "Tahoma"; COLOR: #448bc9; FONT-SIZE: 18px
+}
+.NClinks {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.NClinks A:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinks A:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinks A:hover {
+	COLOR: #ff9933
+}
+.NClinks A:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinks_titulo {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.NClinks_titulo A:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinks_titulo A:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinks_titulo A:hover {
+	COLOR: #ff9933
+}
+.NClinks_titulo A:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinksnc {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: Tahoma; COLOR: #666666; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.NClinksnc A:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinksnc A:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinksnc A:hover {
+	COLOR: #2754d3
+}
+.NClinksnc A:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.Menusabajo {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.NClinksam {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.NClinksam A:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinksam A:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.NClinksam A:hover {
+	COLOR: #89bd4b
+}
+.NClinksam A:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.bordesVermas {
+	BORDER-BOTTOM: #ffeccb 1px solid; BORDER-LEFT: #ffeccb 1px solid; BORDER-RIGHT: #ffeccb 1px solid
+}
+.vermas {
+	FONT-FAMILY: "Tahoma"; COLOR: #548fd5; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.Tit_not_uro {
+	FONT-FAMILY: "Tahoma"; COLOR: #fea412; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.NCcapitular {
+	FONT-FAMILY: "Tahoma"; COLOR: #548fd5; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.NCcapitular A:link {
+	FONT-FAMILY: "Tahoma"; COLOR: #548fd5; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.NCcapitular A:visited {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.NCcapitular A:hover {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.NCcapitular A:active {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.NCtextoNaranjo {
+	FONT-FAMILY: "Tahoma"; COLOR: #f26522; FONT-SIZE: 14px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.AMtextoVerde {
+	FONT-FAMILY: Tahoma; COLOR: #89bd4b; FONT-SIZE: 15px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.NCtextoAzul {
+	FONT-FAMILY: Tahoma; COLOR: #2754d3; FONT-SIZE: 15px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.NCtextoAzul_noticias {
+	FONT-FAMILY: Tahoma; COLOR: #2754d3; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.PSconvUniv {
+	FONT-FAMILY: "Tahoma"; COLOR: #10a405; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.PSconvEsco {
+	FONT-FAMILY: "Tahoma"; COLOR: #4b87b9; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.PSconvEsco A:link {
+	FONT-FAMILY: "Tahoma"; COLOR: #4b87b9; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.PSconvEsco A:visited {
+	FONT-FAMILY: "Tahoma"; COLOR: #4b87b9; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.PSconvEsco A:hover {
+	FONT-FAMILY: "Tahoma"; COLOR: #ffcc00; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.nc {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.nc A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.nc A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.nc A:hover {
+	COLOR: #0033cc; TEXT-DECORATION: none
+}
+.nc A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.uro {
+	FONT-FAMILY: "Tahoma"; COLOR: #797776; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.uro A:link {
+	COLOR: #ffb413; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.uro A:hover {
+	COLOR: #ffb413; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.uro A:active {
+	COLOR: #ffb413; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.vmas {
+	FONT-FAMILY: Tahoma; COLOR: #ff0000; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.vmas A:link {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.vmas A:visited {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.vmas A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+.vmas A:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.tituloMenuNC {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #2754d3; FONT-SIZE: 16px; FONT-WEIGHT: normal; PADDING-TOP: 2px
+}
+.tituloMenuAM {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #d2e78a; FONT-SIZE: 16px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.tituloMenuPS {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #fea412; FONT-SIZE: 15px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.btn_enviar_general {
+	BACKGROUND-IMAGE: url(../imagenes/general/btn_enviar.jpg); BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 30px; WIDTH: 112px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; FONT: bold 14px "Tahoma"; BORDER-TOP-STYLE: none; HEIGHT: 25px; COLOR: #ffffff; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.btn_general_todo {
+	BACKGROUND-IMAGE: url(../imagenes/general/btn_enviar.jpg); BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 10px; WIDTH: 112px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: "Tahoma"; BACKGROUND-POSITION: left 50%; BORDER-TOP-STYLE: none; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.btn_general_sinflecha {
+	BACKGROUND-IMAGE: url(../imagenes/ps/btn_sinflecha.jpg); BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: center; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; WIDTH: 112px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: "Tahoma"; BACKGROUND-POSITION: center 50%; BORDER-TOP-STYLE: none; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.btn_maternidad_sinflecha {
+	BACKGROUND-IMAGE: url(../imagenes/maternidad/btn_enviar.jpg); BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: center; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; WIDTH: 112px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: "Tahoma"; BACKGROUND-POSITION: center 50%; BORDER-TOP-STYLE: none; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.TitulosMapaSitio {
+	FONT-FAMILY: "Tahoma"; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.TituloPS {
+	FONT-FAMILY: "Tahoma"; COLOR: #ff9900; FONT-SIZE: 18px
+}
+.blanco {
+	FONT-FAMILY: Arial; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.subir_ps {
+	FONT-FAMILY: "Tahoma"; COLOR: #ff9a24; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.subir_ps A:link {
+	FONT-FAMILY: "Tahoma"; COLOR: #ff9a24; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.subir_ps A:visited {
+	FONT-FAMILY: "Tahoma"; COLOR: #ff9a24; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.convuniv {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #11a506; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.PSconvUniv {
+	FONT-FAMILY: "Tahoma"; COLOR: #11a506; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.PSconvUniv A:link {
+	FONT-FAMILY: "Tahoma"; COLOR: #11a506; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.PSconvUniv A:visited {
+	FONT-FAMILY: "Tahoma"; COLOR: #11a506; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.PSconvUniv A:hover {
+	FONT-FAMILY: "Tahoma"; COLOR: #ffcc00; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.links_titulos_proveedores {
+	LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-FAMILY: "Tahoma"; COLOR: #496a7c; FONT-SIZE: 14px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.links_titulos_proveedores A:link {
+	LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-FAMILY: "Tahoma"; COLOR: #496a7c; FONT-SIZE: 14px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.tituloCardio {
+	FONT: 18px "Tahoma"; COLOR: #8ec44e; TEXT-DECORATION: none
+}
+.tituloEduca {
+	FONT: bold 18px "Century Gothic"; COLOR: #996699; TEXT-DECORATION: none
+}
+.subtituloEduca {
+	FONT: bold 15px "Century Gothic"; COLOR: #996699; TEXT-DECORATION: none
+}
+.subtituloEduca2 {
+	FONT: bold 13px "Century Gothic"; COLOR: #996699; TEXT-DECORATION: none
+}
+.subtitulo_edu2 {
+	FONT-FAMILY: "Tahoma"; COLOR: #996699; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.subtitulo_edu3 {
+	FONT-FAMILY: "Tahoma"; COLOR: #b08ab0; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.subtitulo_edu4 {
+	FONT-FAMILY: "Tahoma"; COLOR: #c5a7c5; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.tituloEndo {
+	FONT: 18px "Tahoma"; COLOR: #448cca; TEXT-DECORATION: none
+}
+.tituloUro {
+	FONT: 18px Tahoma; COLOR: #ffb702; TEXT-DECORATION: none
+}
+.tituloResp {
+	FONT: 18px Tahoma; COLOR: #1e66d0; TEXT-DECORATION: none
+}
+.tituloMater {
+	FONT: 18px "Tahoma"; COLOR: #d69a9c; TEXT-DECORATION: none
+}
+A {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #666666; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #f0611f
+}
+.convescolar {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 11px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.convescolar A:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.convescolar A:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.convescolar A:hover {
+	COLOR: #ff9933
+}
+.convescolar A:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.cardiolinks {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.cardiolinks:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.cardiolinks:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.cardiolinks:hover {
+	COLOR: #8ec44e
+}
+.cardiolinks:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.btnCerrar {
+	BACKGROUND-IMAGE: url(../imagenes/imgexamenes/btnCerrar.jpg); BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #7eacc6; PADDING-LEFT: 15px; WIDTH: 87px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: sans-serif; BACKGROUND-POSITION: center 50%; BORDER-TOP-STYLE: none; HEIGHT: 21px; COLOR: #ffffff; FONT-SIZE: 10px; BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold
+}
+.btn109x17 {
+	BACKGROUND-IMAGE: url(../imagenes/imgexamenes/btn109x17.jpg); BORDER-BOTTOM: #528db1 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #528db1 1px solid; BACKGROUND-COLOR: #ffffff; FONT-STYLE: normal; WIDTH: 115px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial; BACKGROUND-POSITION: center 50%; HEIGHT: 22px; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #528db1 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #528db1 1px solid
+}
+.btnCerrarSesion {
+	BACKGROUND-IMAGE: url(../imagenes/imgexamenes/btnCerrarSesion.jpg); BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #7eacc6; PADDING-LEFT: 8px; WIDTH: 100px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: sans-serif; BACKGROUND-POSITION: center 50%; BORDER-TOP-STYLE: none; HEIGHT: 21px; COLOR: #ffffff; FONT-SIZE: 10px; BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold
+}
+.btnLargo {
+	BACKGROUND-IMAGE: url(../imagenes/imgexamenes/btn109x17.jpg); BORDER-BOTTOM: #528db1 1px solid; BORDER-LEFT: #528db1 1px solid; BACKGROUND-COLOR: #ffffff; WIDTH: 200px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: center 50%; BORDER-TOP: #528db1 1px solid; BORDER-RIGHT: #528db1 1px solid
+}
+.clinica {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.clinica A:link {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.clinica A:visited {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.clinica A:hover {
+	FONT-FAMILY: "Tahoma"; COLOR: #ff9900; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.clinica A:active {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.salud {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.salud A:link {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.salud A:visited {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.salud A:hover {
+	FONT-FAMILY: "Tahoma"; COLOR: #00cc00; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.salud A:active {
+	FONT-FAMILY: "Tahoma"; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.LinksGenerales {
+	FONT-FAMILY: Tahoma; COLOR: #488dc6; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.LinksGenerales A:link {
+	COLOR: #488dc6; TEXT-DECORATION: none
+}
+.LinksGenerales A:visited {
+	COLOR: #488dc6; TEXT-DECORATION: none
+}
+.LinksGenerales A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+.MenuIzquierdo {
+	BORDER-LEFT: #425454 1px solid; PADDING-BOTTOM: 2px; TEXT-TRANSFORM: none; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 7px; WIDTH: 185px; DISPLAY: block; FONT-FAMILY: "Times New Roman", Times, serif; HEIGHT: 20px; COLOR: #003366; FONT-SIZE: 11px; BORDER-TOP: #425454 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #425454 1px solid; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.MenuIzquierdoBordeinf {
+	BORDER-BOTTOM: #425454 1px solid
+}
+.MenuIzquierdo A:link {
+	FONT-FAMILY: Verdana; COLOR: #003366; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.MenuIzquierdo A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #003366; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.MenuIzquierdo A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #ff9900; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+TABLE.tabla_reserva {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-COLLAPSE: collapse; EMPTY-CELLS: show; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.barrafondo {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 10px
+}
+.textoGeneral {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.urologia_titulo_n1 {
+	FONT: 18px Tahoma; COLOR: #ffb702; TEXT-DECORATION: none
+}
+.urologia_titulo_n2 {
+	FONT: bold 13px Tahoma; COLOR: #ffb702; TEXT-DECORATION: none
+}
+.urologia_titulo_n3 {
+	FONT: bold 11px Tahoma; COLOR: #ffb702; TEXT-DECORATION: none
+}
+.urologia_preguntas_tit {
+	LINE-HEIGHT: 16px; FONT-STYLE: italic; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.urologia_txt_destacado {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.urologia_link {
+	
+}
+.urologia_tema_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #fea412; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.urologia_tema_texto {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.urologia_noticia_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #548fd5; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.urologia_noticia_tit:visited {
+	COLOR: #548fd5
+}
+.urologia_noticia_tit:hover {
+	COLOR: #f26522
+}
+.urologia_noticia_tit:active {
+	COLOR: #548fd5
+}
+.urologia_noticia_texto {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.urologia_noticia_texto:visited {
+	COLOR: #666666
+}
+.urologia_noticia_texto:hover {
+	COLOR: #f26522
+}
+.urologia_noticia_texto:active {
+	COLOR: #666666
+}
+.urologia_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #f26522; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.urología_menu_patologias {
+	FONT-FAMILY: "Tahoma"; COLOR: #797776; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.urología_menu_patologias:visited {
+	COLOR: #797776
+}
+.urología_menu_patologias:hover {
+	COLOR: #f26522
+}
+.urología_menu_patologias:active {
+	COLOR: #797776
+}
+.maternidad_titulo_n1 {
+	FONT: 18px Tahoma; COLOR: #d69a9c; TEXT-DECORATION: none
+}
+.maternidad_titulo_n2 {
+	FONT: bold 13px Tahoma; COLOR: #d69a9c; TEXT-DECORATION: none
+}
+.maternidad_titulo_n3 {
+	FONT: bold 11px Tahoma; COLOR: #ca7b7d; TEXT-DECORATION: none
+}
+.maternidad_preguntas_tit {
+	LINE-HEIGHT: 16px; FONT-STYLE: italic; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.maternidad_txt_destacado {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.maternidad_link {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.maternidad_link:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.maternidad_link:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.maternidad_link:hover {
+	COLOR: #b6494d
+}
+.maternidad_link:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.maternidad_tema_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #ce8688; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.maternidad_tema_texto {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.maternidad_noticia_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #d69a9c; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.maternidad_noticia_tit:visited {
+	COLOR: #d69a9c
+}
+.maternidad_noticia_tit:hover {
+	COLOR: #b6494d
+}
+.maternidad_noticia_tit:active {
+	COLOR: #d69a9c
+}
+.maternidad_noticia_texto {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.maternidad_noticia_texto:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.maternidad_noticia_texto:hover {
+	COLOR: #b6494d; TEXT-DECORATION: none
+}
+.maternidad_noticia_texto:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.maternidad_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #d69a9c; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.maternidad_vermas:visited {
+	COLOR: #d69a9c
+}
+.maternidad_vermas:hover {
+	COLOR: #b6494d
+}
+.maternidad_vermas:active {
+	COLOR: #d69a9c
+}
+.maternidad_menu_patologias {
+	FONT-FAMILY: "Tahoma"; COLOR: #797776; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.oncologia_titulo_n1 {
+	FONT: 18px Tahoma; COLOR: #448bc9; TEXT-DECORATION: none
+}
+.oncologia_titulo_n2 {
+	FONT: bold 13px Tahoma; COLOR: #448bc9; TEXT-DECORATION: none
+}
+.oncologia_titulo_n3 {
+	FONT: bold 11px Tahoma; COLOR: #548fd5; TEXT-DECORATION: none
+}
+.oncologia_preguntas_tit {
+	LINE-HEIGHT: 16px; FONT-STYLE: italic; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.oncologia_txt_destacado {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.oncolinks {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.oncolinks:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.oncolinks:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.oncolinks:hover {
+	COLOR: #548fd5
+}
+.oncolinks:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.oncologia_tema_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #548fd5; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.oncologia_tema_texto {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.oncologia_noticia_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #3175c8; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.oncologia_noticia_tit:visited {
+	COLOR: #3175c8
+}
+.oncologia_noticia_tit:hover {
+	COLOR: #2d3679
+}
+.oncologia_noticia_tit:active {
+	COLOR: #3175c8
+}
+.oncologia_noticia_texto {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.oncologia_noticia_texto:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.oncologia_noticia_texto:hover {
+	COLOR: #2d3679; TEXT-DECORATION: none
+}
+.oncologia_noticia_texto:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.oncologia_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #548fd5; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.oncologia_vermas:visited {
+	COLOR: #548fd5
+}
+.oncologia_vermas:hover {
+	COLOR: #2d3679
+}
+.oncologia_vermas:active {
+	COLOR: #548fd5
+}
+.oncologia_menu_patologias {
+	FONT-FAMILY: "Tahoma"; COLOR: #797776; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.edu_noticia_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #996699; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.edu_noticia_tit:visited {
+	COLOR: #996699
+}
+.edu_noticia_tit:hover {
+	COLOR: #999999
+}
+.edu_noticia_tit:active {
+	COLOR: #996699
+}
+.edu_noticia_texto {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.edu_noticia_texto:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.edu_noticia_texto:hover {
+	COLOR: #996699; TEXT-DECORATION: none
+}
+.edu_noticia_texto:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.edu_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #996699; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.edu_vermas:visited {
+	COLOR: #996699
+}
+.edu_vermas:hover {
+	COLOR: #666666
+}
+.edu_vermas:active {
+	COLOR: #996699
+}
+.edu_menu {
+	FONT-FAMILY: "Tahoma"; COLOR: #996699; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.edu_menu:visited {
+	COLOR: #996699
+}
+.edu_menu:hover {
+	COLOR: #999999
+}
+.edu_menu:active {
+	COLOR: #996699
+}
+.edulinks {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.edulinks:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.edulinks:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.edulinks:hover {
+	COLOR: #996699
+}
+.edulinks:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.endocrinologia_titulo_n1 {
+	FONT: 18px Tahoma; COLOR: #448cca; TEXT-DECORATION: none
+}
+.endocrinologia_titulo_n2 {
+	FONT: bold 13px Tahoma; COLOR: #3173ae; TEXT-DECORATION: none
+}
+.endocrinologia_titulo_n3 {
+	FONT: bold 11px Tahoma; COLOR: #6aa3d5; TEXT-DECORATION: none
+}
+.endocrinologia_preguntas_tit {
+	LINE-HEIGHT: 16px; FONT-STYLE: italic; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.endocrinologia_txt_destacado {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.endolinks {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.endolinks:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.endolinks:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.endolinks:hover {
+	COLOR: #448cca
+}
+.endolinks:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.endocrinologia_tema_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #3173ae; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.endocrinologia_tema_texto {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.endocrinologia_noticia_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #3173ae; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.endocrinologia_noticia_tit:visited {
+	COLOR: #3173ae
+}
+.endocrinologia_noticia_tit:hover {
+	COLOR: #00ccff
+}
+.endocrinologia_noticia_tit:active {
+	COLOR: #3173ae
+}
+.endocrinologia_noticia_texto {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.endocrinologia_noticia_texto:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.endocrinologia_noticia_texto:hover {
+	COLOR: #00ccff; TEXT-DECORATION: none
+}
+.endocrinologia_noticia_texto:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.endocrinologia_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #3173ae; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.endocrinologia_vermas:visited {
+	COLOR: #3173ae
+}
+.endocrinologia_vermas:hover {
+	COLOR: #00ccff
+}
+.endocrinologia_vermas:active {
+	COLOR: #3173ae
+}
+.endocrinologia_menu_patologias {
+	FONT-FAMILY: "Tahoma"; COLOR: #797776; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.cardiologia_titulo_n1 {
+	FONT: 18px Tahoma; COLOR: #8ec44e; TEXT-DECORATION: none
+}
+.cardiologia_titulo_n2 {
+	FONT: bold 13px Tahoma; COLOR: #89bd4b; TEXT-DECORATION: none
+}
+.cardiologia_titulo_n3 {
+	FONT: bold 11px Tahoma; COLOR: #7aab3f; TEXT-DECORATION: none
+}
+.cardiologia_preguntas_tit {
+	LINE-HEIGHT: 16px; FONT-STYLE: italic; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.cardiologia_txt_destacado {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.cardiologia_tema_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #89bd4b; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.cardiologia_tema_texto {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.cardiologia_noticia_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #7aab3f; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.cardiologia_noticia_tit:visited {
+	COLOR: #7aab3f
+}
+.cardiologia_noticia_tit:hover {
+	COLOR: #f26522
+}
+.cardiologia_noticia_tit:active {
+	COLOR: #3173ae
+}
+.cardiologia_noticia_texto {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.cardiologia_noticia_texto:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.cardiologia_noticia_texto:hover {
+	COLOR: #f26522; TEXT-DECORATION: none
+}
+.cardiologia_noticia_texto:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.cardiologia_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #7aab3f; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.cardiologia_vermas:visited {
+	COLOR: #7aab3f
+}
+.cardiologia_vermas:hover {
+	COLOR: #f26522
+}
+.cardiologia_vermas:active {
+	COLOR: #7aab3f
+}
+.cardiologia_menu_patologias {
+	FONT-FAMILY: "Tahoma"; COLOR: #3173ae; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.respiratorio_titulo_n1 {
+	FONT: 18px Tahoma; COLOR: #1e66d0; TEXT-DECORATION: none
+}
+.respiratorio_titulo_n2 {
+	FONT: bold 13px Tahoma; COLOR: #1e66d0; TEXT-DECORATION: none
+}
+.respiratorio_titulo_n3 {
+	FONT: bold 11px Tahoma; COLOR: #659ae9; TEXT-DECORATION: none
+}
+.respiratorio_preguntas_tit {
+	LINE-HEIGHT: 16px; FONT-STYLE: italic; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.respiratorio_txt_destacado {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.respilinks {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.respilinks:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.respilinks:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.respilinks:hover {
+	COLOR: #1e66d0
+}
+.respilinks:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.respiratorio_tema_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #659ae9; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.respiratorio_tema_texto {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.respiratorio_noticia_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #1e66d0; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.respiratorio_noticia_tit:visited {
+	COLOR: #1e66d0
+}
+.respiratorio_noticia_tit:hover {
+	COLOR: #00ccff
+}
+.respiratorio_noticia_tit:active {
+	COLOR: #1e66d0
+}
+.respiratorio_noticia_texto {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.respiratorio_noticia_texto:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.respiratorio_noticia_texto:hover {
+	COLOR: #00ccff; TEXT-DECORATION: none
+}
+.respiratorio_noticia_texto:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.respiratorio_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #1e66d0; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.respiratorio_vermas:visited {
+	COLOR: #1e66d0
+}
+.respiratorio_vermas:hover {
+	COLOR: #00ccff
+}
+.respiratorio_vermas:active {
+	COLOR: #1e66d0
+}
+.respiratorio_menu_patologias {
+	FONT-FAMILY: "Tahoma"; COLOR: #797776; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.tit_blanco {
+	FONT-FAMILY: Arial; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.tit_blanco:visited {
+	COLOR: #ffffff
+}
+.tit_blanco:hover {
+	COLOR: #cccccc
+}
+.tit_blanco:active {
+	COLOR: #ffffff
+}
+.medicina_preventiva_titulo_n1 {
+	FONT: 18px Tahoma; COLOR: #1e66d0; TEXT-DECORATION: none
+}
+.medicina_preventiva_titulo_n2 {
+	FONT: bold 13px Tahoma; COLOR: #1e66d0; TEXT-DECORATION: none
+}
+.medicina_preventiva_titulo_n3 {
+	FONT: bold 11px Tahoma; COLOR: #659ae9; TEXT-DECORATION: none
+}
+.medicina_preventiva_preguntas_tit {
+	LINE-HEIGHT: 16px; FONT-STYLE: italic; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.medicina_preventiva_txt_destacado {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.med_prev_links {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.med_prev_links:link {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.med_prev_links:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.med_prev_links:hover {
+	COLOR: #1e66d0
+}
+.med_prev_links:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.medicina_preventiva_tema_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #659ae9; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.medicina_preventiva_tema_texto {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.medicina_preventiva_noticia_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #1e66d0; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.medicina_preventiva_noticia_tit:visited {
+	COLOR: #1e66d0
+}
+.medicina_preventiva_noticia_tit:hover {
+	COLOR: #00ccff
+}
+.medicina_preventiva_noticia_tit:active {
+	COLOR: #1e66d0
+}
+.medicina_preventiva_noticia_texto {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.medicina_preventiva_noticia_texto:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.medicina_preventiva_noticia_texto:hover {
+	COLOR: #00ccff; TEXT-DECORATION: none
+}
+.medicina_preventiva_noticia_texto:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.medicina_preventiva_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #1e66d0; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.medicina_preventiva_vermas:visited {
+	COLOR: #1e66d0
+}
+.medicina_preventiva_vermas:hover {
+	COLOR: #00ccff
+}
+.medicina_preventiva_vermas:active {
+	COLOR: #1e66d0
+}
+.medicina_preventiva_menu_patologias {
+	FONT-FAMILY: "Tahoma"; COLOR: #797776; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.tabla_exa_news {
+	BORDER-BOTTOM: #84a5b7 1px solid; FONT-STYLE: normal; FONT-FAMILY: tahoma; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.tabla_exa_2 {
+	BORDER-BOTTOM: #9db8c6 1px dashed; FONT-STYLE: normal; FONT-FAMILY: tahoma; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.plastica_titulo_n1 {
+	FONT: 18px Tahoma; COLOR: #f8ad89; TEXT-DECORATION: none
+}
+.plastica_titulo_n2 {
+	FONT: bold 13px Tahoma; COLOR: #f59465; TEXT-DECORATION: none
+}
+.plastica_titulo_n3 {
+	FONT: bold 11px Tahoma; COLOR: #f38143; TEXT-DECORATION: none
+}
+.plasticalinks {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.plasticalinks:link {
+	COLOR: #f16214; TEXT-DECORATION: none
+}
+.plasticalinks:visited {
+	COLOR: #f16214; TEXT-DECORATION: none
+}
+.plasticalinks:hover {
+	COLOR: #f16214
+}
+.plasticalinks:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.plastica_noticia_tit {
+	PADDING-BOTTOM: 5px; FONT-FAMILY: "Tahoma"; COLOR: #f59465; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.plastica_noticia_tit:visited {
+	COLOR: #ed864d
+}
+.plastica_noticia_tit:hover {
+	COLOR: #f16214
+}
+.plastica_noticia_tit:active {
+	COLOR: #ed864d
+}
+.plastica_noticia_texto {
+	FONT-FAMILY: "Tahoma"; COLOR: #666666; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.plastica_noticia_texto:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.plastica_noticia_texto:hover {
+	COLOR: #f16214; TEXT-DECORATION: none
+}
+.plastica_noticia_texto:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.plastica_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #f59465; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.plastica_vermas:visited {
+	COLOR: #f59465
+}
+.plastica_vermas:hover {
+	COLOR: #666666
+}
+.plastica_vermas:active {
+	COLOR: #f59465
+}
+.tdmedicos {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-RIGHT-STYLE: none; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #777777; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none
+}
+.tdvacunatorio {
+	BACKGROUND-IMAGE: url(../imagenes/vacunatorio/fondito.jpg); BORDER-RIGHT-STYLE: none; FONT-STYLE: normal; PADDING-LEFT: 15px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; BORDER-BOTTOM-WIDTH: 1px; COLOR: #777777; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.tdvacunatorio2 {
+	BACKGROUND-IMAGE: url(../imagenes/vacunatorio/fondito2.jpg); BORDER-RIGHT-STYLE: none; FONT-STYLE: normal; PADDING-LEFT: 20px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #777777; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none
+}
+.tdvacunatorio3 {
+	BACKGROUND-IMAGE: url(../imagenes/vacunatorio/info_fondo.jpg); BORDER-RIGHT-STYLE: none; FONT-STYLE: normal; PADDING-LEFT: 20px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #777777; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none
+}
+.vacunatorio_titulo_n1 {
+	FONT: 18px Tahoma; COLOR: #336699; TEXT-DECORATION: none
+}
+.vacunatorio_titulo_n2 {
+	FONT: bold 13px Tahoma; COLOR: #336699; TEXT-DECORATION: none
+}
+.vacunatorio_titulo_n3 {
+	FONT: bold 11px Tahoma; COLOR: #689acc; TEXT-DECORATION: none
+}
+.vacunatorio_txt_destacado {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; WHITE-SPACE: normal; LETTER-SPACING: 0px; COLOR: #496a7c; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.vacunatoriolinks {
+	PADDING-BOTTOM: 1px; FONT-FAMILY: "Tahoma"; COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.vacunatoriolinks:link {
+	COLOR: #336699; TEXT-DECORATION: none
+}
+.vacunatoriolinks:visited {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.vacunatoriolinks:hover {
+	COLOR: #336699
+}
+.vacunatoriolinks:active {
+	COLOR: #626262; TEXT-DECORATION: none
+}
+.vacunatorio_vermas {
+	FONT-FAMILY: Tahoma; COLOR: #336699; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.vacunatorio_vermas:visited {
+	COLOR: #336699
+}
+.vacunatorio_vermas:hover {
+	COLOR: #00ccff
+}
+.vacunatorio_vermas:active {
+	COLOR: #336699
+}
+
+
+/*boton con fondito*/
+
+.btn_verreserva {
+	font-family: "Tahoma";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	background-image: url(../imagenes/ver_boton.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: left;
+	display: block;
+	height: 25px;
+	width: 112px;
+	padding-left: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-bottom: 5px;
+}
+
+
+
+input,select
+{
+    font-family: "Trebuchet MS";
+    color: #006699;
+    font-size: 12px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: #006699;
+    border-bottom-color: #006699;
+    border-left-color: #006699;
+    border-right-color: #006699;
+}

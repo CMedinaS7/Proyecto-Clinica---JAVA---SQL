@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Historial Medico" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" isDefault="false" fontName="Times New Roman" fontSize="50" isBold="true" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" isDefault="false" forecolor="#736343" fontName="Arial" fontSize="18"/>
+	<style name="Column header" isDefault="false" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" isDefault="false" fontName="Arial" fontSize="12"/>
+	<style name="Row" isDefault="false" mode="Transparent">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style isDefault="false" style="Row" backcolor="#E6DAC3"/>
+		</conditionalStyle>
+	</style>
+	<parameter name="paciente" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT     dbo.Paciente.ApellidoPaterno + ' ' + dbo.Paciente.ApellidoMaterno + ' ' + dbo.Paciente.Nombres as 'Paciente',dbo.Especialidad.NombreEspecialidad as 'Especialidad',  dbo.Especialista.Apellidos + ' ' + dbo.Especialista.Nombre as 'Especialista',dbo.DetalleFichaMedica.Fecha, dbo.DetalleFichaMedica.Descripcion,
+                      dbo.DetalleFichaMedica.Receta
+FROM         dbo.Especialidad INNER JOIN
+                      dbo.Especialista ON dbo.Especialidad.IDEspecialidad = dbo.Especialista.IDEspecialidad INNER JOIN
+                      dbo.DetalleFichaMedica ON dbo.Especialista.IDEspecialista = dbo.DetalleFichaMedica.IDEspecialista INNER JOIN
+                      dbo.Paciente ON dbo.DetalleFichaMedica.IDPaciente = dbo.Paciente.IDPaciente
+
+where DetalleFichaMedica.IDPaciente=$P{paciente}
+]]>
+	</queryString>
+	<field name="Paciente" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Especialidad" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Especialista" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Fecha" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Descripcion" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Receta" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="Paciente">
+		<groupExpression><![CDATA[$F{Paciente}]]></groupExpression>
+		<groupHeader>
+			<band height="37">
+				<frame>
+					<reportElement mode="Opaque" x="-21" y="7" width="597" height="24" forecolor="#B89F7D" backcolor="#F2EBDF"/>
+					<rectangle>
+						<reportElement mode="Opaque" x="21" y="0" width="36" height="24" backcolor="#736343"/>
+						<graphicElement>
+							<pen lineWidth="0.0"/>
+						</graphicElement>
+					</rectangle>
+					<textField>
+						<reportElement style="SubTitle" x="68" y="0" width="413" height="24" forecolor="#736343"/>
+						<textElement>
+							<font isBold="true"/>
+						</textElement>
+						<textFieldExpression class="java.lang.String"><![CDATA[$F{Paciente}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band/>
+		</groupFooter>
+	</group>
+	<group name="Especialista">
+		<groupExpression><![CDATA[$F{Especialista}]]></groupExpression>
+		<groupHeader>
+			<band height="24">
+				<textField>
+					<reportElement style="SubTitle" x="1" y="0" width="554" height="20"/>
+					<textElement>
+						<font size="16" isBold="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{Especialista}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="104" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="15" width="318" height="32" forecolor="#4173AC"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[© Copyright 2010 Clínica Salud Medical S.A. - Mz. A11 Lt. 01 - Urb.Manuel Arévalo - Trujillo .]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Title" x="72" y="62" width="412" height="38" forecolor="#006699"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="32" isBold="true" isUnderline="false" isStrikeThrough="false" pdfFontName="Times-Roman"/>
+				</textElement>
+				<text><![CDATA[HISTORIAL MEDICO]]></text>
+			</staticText>
+			<image>
+				<reportElement x="442" y="10" width="120" height="43"/>
+				<imageExpression class="java.lang.String"><![CDATA["../imagenes/logo.gif"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="0" y="53" width="554" height="1" forecolor="#594034"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="10" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="143" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="0" y="3" width="555" height="135" backcolor="#F2EBDF"/>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="100" y="1" width="197" height="15" forecolor="#736343"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{Especialidad}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="426" y="2" width="123" height="15" forecolor="#736343"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression class="java.sql.Timestamp"><![CDATA[$F{Fecha}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" mode="Transparent" x="0" y="42" width="549" height="33" backcolor="#CCCCCC"/>
+					<textElement>
+						<font fontName="Calibri" size="10"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{Descripcion}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" mode="Transparent" x="2" y="101" width="547" height="30" backcolor="#CCCCCC"/>
+					<textElement>
+						<font fontName="Calibri" size="10"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{Receta}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="SubTitle" x="0" y="1" width="96" height="15" forecolor="#000000"/>
+					<textElement>
+						<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="Times-Roman"/>
+					</textElement>
+					<text><![CDATA[ESPECIALIDAD:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="SubTitle" x="370" y="2" width="53" height="14" forecolor="#000000"/>
+					<textElement>
+						<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="Times-Roman"/>
+					</textElement>
+					<text><![CDATA[FECHA:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="SubTitle" x="1" y="24" width="96" height="15" forecolor="#000000"/>
+					<textElement>
+						<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="Times-Roman"/>
+					</textElement>
+					<text><![CDATA[DIAGNOSTICO:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="SubTitle" x="1" y="80" width="96" height="15" forecolor="#000000"/>
+					<textElement>
+						<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="Times-Roman"/>
+					</textElement>
+					<text><![CDATA[RECETA:]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="16" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="10" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="-21" y="1" width="597" height="24" forecolor="#D0B48E" backcolor="#F2EBDF"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="532" y="0" width="41" height="20" forecolor="#736343"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="277" y="0" width="253" height="20" forecolor="#736343"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA["Pagina "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+				</textField>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement style="Column header" x="22" y="1" width="197" height="20" forecolor="#736343"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
